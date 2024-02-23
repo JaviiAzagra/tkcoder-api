@@ -32,7 +32,7 @@ router.get("/type/:type", async (req, res, next) => {
   }
 });
 
-router.post("/create", uploadFile.single("img"), async (req, res, next) => {
+router.post("/create", async (req, res, next) => {
   try {
     const comment = req.body;
     if (req.file) {
