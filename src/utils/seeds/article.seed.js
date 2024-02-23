@@ -7,7 +7,7 @@ const articles = [
     title: "Top 10 extensiones de Visual Studio Code",
     description:
       "En este artículo, te presentaré las 10 extensiones que son imprescindibles para maximizar tu experiencia con Visual Studio Code y simplificar tus tareas diarias.",
-    img: "/assets/vscodeextensionesimg.jpg",
+    img: "https://res.cloudinary.com/dj0q4vclw/image/upload/v1708647065/tkcoder-api/ctfx5idovjqagl0uph3i.jpg",
     type: "vscode",
     url: "/articles/top-10-extensiones-visual-studio-code",
   },
@@ -15,14 +15,14 @@ const articles = [
     title: "Herramientas Esenciales para Desarrolladores Full Stack",
     description:
       "Destaca las herramientas y tecnologías clave que todo desarrollador Full Stack debería conocer y dominar, desde frameworks de frontend como React o Angular, hasta bases de datos como MongoDB o MySQL.",
-    img: "/assets/toolsimg.png",
+    img: "https://res.cloudinary.com/dj0q4vclw/image/upload/v1708647066/tkcoder-api/rz53ozoseo031wsaw9ax.png",
     type: "fullstack",
     url: "/articles/top-10-extensiones-visual-studio-code",
   },
   {
     title: "JavaScript Tutorial",
     description: "Como crear un web en varios idiomas con i18n.js",
-    img: "/assets/i18n.webp",
+    img: "https://res.cloudinary.com/dj0q4vclw/image/upload/v1708647063/tkcoder-api/xvtnxeirx4oyjaw6jg1c.webp",
     type: "javascript",
     url: "/articles/top-10-extensiones-visual-studio-code",
   },
