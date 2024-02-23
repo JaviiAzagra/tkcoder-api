@@ -32,17 +32,13 @@ router.get("/type/:type", async (req, res, next) => {
   }
 });
 
-router.post("/create", async (req, res, next) => {
+router.post("/create", async (req, res) => {
   try {
-    const comment = req.body;
-    if (req.file) {
-      comment.img = req.file.path;
-    }
-    const newComment = new Comment(comment);
+    const newComment = new Comment(req.body);
     const created = await newComment.save();
     return res.status(201).json(created);
   } catch (error) {
-    return next(error);
+    return res.status(500).json("No se ha podido crear el comentario");
   }
 });
 
